@@ -4,7 +4,7 @@ import pandas as pd
 
 st.header("Life Expectancy at Birth, Female")
 
-df=pd.read_csv("https://github.com/afina98/MyFirstApp/blob/main/Life%20Expectancy%20at%20birth%2C%20female.csv")
+df=pd.read_csv("Life Expectancy at birth,female.csv")
 st.dataframe(df)
 
 st.write('Disclamer. This web app is for learning purpose only')
