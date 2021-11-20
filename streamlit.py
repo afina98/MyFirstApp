@@ -4,9 +4,6 @@ import pandas as pd
 
 st.header("Life Expectancy at Birth, Female")
 
-df=pd.read_csv("Life Expectancy at birth,female.csv")
-st.dataframe(df)
-
 st.write('Disclamer. This web app is for learning purpose only')
 st.write ('Data is from [HERE](https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN?end=2019&locations=MY&most_recent_year_desc=false&start=1960&view=chart)')
 
