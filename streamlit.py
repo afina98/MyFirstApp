@@ -37,7 +37,7 @@ if option == 'Malaysia':
 
     }))
  
- elif option == 'Indonesia':
+ if option == 'Indonesia':
   st.write(pd.DataFrame({
     'Country': ['Indonesia'],
     'Year 1960': [49.009],
@@ -49,7 +49,7 @@ if option == 'Malaysia':
 
     }))
  
- else option == 'Singapore':
+ if option == 'Singapore':
   st.write(pd.DataFrame({
     'Country': ['Singapore'],
     'Year 1960': [69.196],
