@@ -61,7 +61,6 @@ if option == 'Malaysia':
 
     }))
             
-option = st.sidebar. selectbox('Select Country', ['Malaysia','Indonesia','Singapore'])
 
 hide_streamlit_style = """
             <style>
